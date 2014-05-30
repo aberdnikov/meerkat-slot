@@ -1,0 +1,25 @@
+{
+	"name": "meerkat/meerkat-slot",
+	"type": "kohana-module",
+	"description": "Slot-cache module for MeerkatCMF (on Kohana 3.3)",
+	"homepage": "http://github.com/meerkat/core",
+	"license": "MIT",
+	"keywords": ["kohana", "module", "meerkat", "cache", "slot"],
+	"authors": [
+				{
+					"name": "Alexey Berdnikov",
+					"email": "aberdnikov@gmail.com",
+					"homepage": "https://github.com/aberdnikov",
+					"role": "Developer"
+			}
+	],
+	"require": {
+			"php": ">=5.3",
+			"composer/installers": "*",
+			"meerkat/meerkat-ajax": "*"
+	},
+     "include-path": [
+        "include",
+        "vendor"
+    ] 	
+}
